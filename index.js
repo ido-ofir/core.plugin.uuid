@@ -1,6 +1,7 @@
 
 module.exports = {
     name: 'core.plugin.uuid',
+    dependencies: ['core.loader.extend'],
     extend: {
         uuid () {
             return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
