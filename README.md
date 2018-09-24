@@ -2,7 +2,7 @@
 Generates a unique id.
 
 ```js
- let core = require('core.constructor');
+ let core = new require('core.constructor')();
  
  core.plugin(
      require('core.plugin.uuid')
